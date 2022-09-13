@@ -1,0 +1,107 @@
+@font-face {
+    font-family: quicksand;
+    src: url(assets/quicksand-v30-latin-regular.woff);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+    font-family: quicksand, sans-serif;
+}
+
+nav{
+    border: 3px solid #6E49EA;
+    border-left: none;
+    border-right: none;
+    height: 60px;
+    background-color: #303330;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+.bar{
+    display: inline-block;
+    padding: 15px;
+    font-weight: bold;
+    
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.center{
+    margin-left: -150px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+a:hover{
+    background-color: #6E49EA;
+    transition: 0.5s;
+}
+
+/* hero */
+.hero{
+    text-align: center;
+    width: 45%;
+    margin: 30px auto;
+}
+
+.hero h1 {
+    margin: bottom 10px;
+}
+
+.hero h5{
+    line-height: 25px;
+}
+
+/*main*/
+main{
+    margin-top: 25px;
+    height: fit-content;
+}
+.sr h4{
+    margin: 15px auto;
+    border-bottom: #6E49EA 3px solid;
+    max-width: 214px;
+    align-content: center;
+    text-align: center;
+}
+.row{
+    width: 100%;
+    margin: 10px 0;
+}
+.row img{
+    border: #303330 3px solid;
+    width: 47%;
+    margin: 0 5px;
+}
+.jumbo{
+    margin: 9px 0 0 0;
+    float:  right;
+    width: 54.5%;
+}
+.jumbo img{
+    border: #303330 3px solid;
+    width: 100%;
+}
+.in{
+    display: inline-block;
+    width: 45%;
+}
+.slide{
+    padding: 0px 4%;
+}
+
