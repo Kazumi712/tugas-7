@@ -1,6 +1,6 @@
 @font-face {
     font-family: quicksand;
-    src: url(assets/quicksand-v30-latin-regular.woff);
+    src: url(quicksand-v30-latin-regular.woff);
 }
 
 *{
@@ -79,6 +79,12 @@ main{
     align-content: center;
     text-align: center;
 }
+
+h4{
+    font-weight: bolder;
+    font-size: 23px;
+}
+
 .row{
     width: 100%;
     margin: 10px 0;
@@ -116,7 +122,18 @@ main{
 }
 h3{
     font-weight: bold;
-    font-size: 33px;
-    
+    font-size: 33px; 
+}
+.about{
+    padding: 0 200px;
+}
+.me{
+    margin-top: 20px;
+    max-width: 770px;
+}
+.about img{
+    float: right;
+    max-width: 500px;
+    margin-top: -50px;
 }
 
